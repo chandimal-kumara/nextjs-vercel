@@ -1,0 +1,12 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="items-center justify-items-center container">
+      &nbsp;
+      <h1 style={{ fontSize: 36, fontWeight: "bold" }}>Next Vercel</h1>
+      &nbsp;
+      <p>This is Test for Build and Deploy with Vercel</p>
+    </div>
+  );
+}
